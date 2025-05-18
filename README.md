@@ -1,17 +1,18 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+Commands
+```
+npm install --legacy-peer-deps
+npx shadcn@latest init 
+npx shadcn@latest add badge calendar card checkbox drawer dropdown-menu input popover progress select switch table tooltip
+npm install @clerk/nextjs
+```
+use --legacy-peer-deps if stuck in the process for shadcn
 
-First, run the development server:
-
-```bash
+and to run Command
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
